@@ -151,3 +151,36 @@ button:hover {
 
     width: 800px; 
 }
+
+.newsletter-section {
+    display: flex; 
+    justify-content: center;
+    background-color: #2E2B26;
+
+    padding: 48px; 
+}
+
+.newsletter-card {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+
+    background-color: #F5F0E6;
+    border-radius: 6px; 
+    width: 70%; 
+    height: 150px; 
+}
+
+.newsletter-header {
+    color: #2E2B26; 
+
+    font-size: 20px; 
+    font-weight: bold; 
+}
+
+.signup-text {
+    color: #2E2B26; 
+    
+    font-size: 18px; 
+}
