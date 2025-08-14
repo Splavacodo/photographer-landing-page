@@ -35,6 +35,12 @@ body {
     color: #4B5D45;
 }
 
+.header {
+    font-size: 36px;
+    color: #F5F0E6; 
+    margin-bottom: 48px; 
+}
+
 ul {
     list-style-type: none; 
     padding: 0;
@@ -89,4 +95,31 @@ button {
 
 button:hover {
     border: 1px solid #2E2B26; 
+}
+
+.photo-section {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+
+    padding: 48px; 
+    background-color: #2E2B26;
+}
+
+.photos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 24px; 
+}
+
+.photo-location {
+    text-align: center;
+    color: #F5F0E6; 
+}
+
+.photo {
+    margin-bottom: 8px; 
+    max-width: 400px; 
+    height: 600px; 
 }
