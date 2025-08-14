@@ -123,3 +123,31 @@ button:hover {
     max-width: 400px; 
     height: 600px; 
 }
+
+.quote-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    padding: 60px 96px; 
+    background-color: #E4E8D5;
+}
+
+.quote {
+    font-style: italic; 
+    font-size: 36px; 
+
+    text-align: justify; 
+    color: #2E2B26; 
+
+    width: 1000px; 
+    margin-bottom: 8px; 
+}
+
+.quote-author {
+    display: flex; 
+    justify-content: flex-end;
+
+    width: 800px; 
+}
