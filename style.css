@@ -78,10 +78,15 @@ a {
 
 button {
     background-color: #6B8F71; 
+    border: 1px solid transparent; 
     color: white; 
 
     font-size: 18px; 
 
-    border-radius: 8px;
-    padding: 2px 18px; 
+    border-radius: 6px;
+    padding: 4px 24px; 
+}
+
+button:hover {
+    border: 1px solid #2E2B26; 
 }
