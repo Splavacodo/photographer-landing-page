@@ -21,9 +21,14 @@ body {
 
 .header-logo {
     font-size: 24px; 
-    color: #2E2B26; 
+    color: #2E2B26;
 }
 
+.hero-primary {
+    color: #2E2B26;
+    font-size: 48px; 
+    font-weight: 900; 
+}
 
 .hero-secondary {
     font-size: 18px; 
@@ -41,4 +46,42 @@ ul {
 
 a {
     text-decoration: none; 
+}
+
+.intro-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 48px; 
+    padding: 84px; 
+
+    background-color: #F5F0E6;
+}
+
+.intro-header,
+.intro-bio {
+    margin-bottom: 8px; 
+}
+
+.intro-bio {
+    text-align: justify;    
+}
+
+.intro-content {
+    width: 500px; 
+}
+
+.self-portrait {
+    width: 333px;
+    height: 444px; 
+}
+
+button {
+    background-color: #6B8F71; 
+    color: white; 
+
+    font-size: 18px; 
+
+    border-radius: 8px;
+    padding: 2px 18px; 
 }
