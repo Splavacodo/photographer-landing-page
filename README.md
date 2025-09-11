@@ -2,7 +2,7 @@
 This project includes a landing page a photographer might use to display their work. There's nothing fancy here, just plain HTML and CSS which includes flexbox to create each of the layouts on the page. 
 
 ## Preview
-<img src="https://drive.google.com/file/d/1Stg3FYK9urRf8ApWG1PQyRWaJRucYES_/view?usp=drive_link" alt="photographer landing page">
+![Photographer Landing Page](./images/photographer-landing-page.png)
 
 ## Credits
 Project Idea Credit: The Odin Project
